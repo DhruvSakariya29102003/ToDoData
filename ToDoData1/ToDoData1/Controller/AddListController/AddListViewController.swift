@@ -36,6 +36,7 @@ class AddListViewController: UIViewController, UIPopoverPresentationControllerDe
         
         // Do any additional setup after loading the view.
     }
+    //Data Upadte Func
     func updateData(){
         if cellSelectData != nil {
             currentDateLbl.text     = cellSelectData?.selectedCellDate
